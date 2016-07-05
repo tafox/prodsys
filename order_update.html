@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>
+        Update Order
+    </title>
+</head>
+<body>
+    <p>Update an Order</p>
+    <form action="/order/update/get" method="post">
+        Order ID:<br>
+        <input type="number" name="order_id"><br><br>
+        <select name="order_status">
+            <option value="Not Started">Not Started</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Finished">Finished</option>
+        </select><br >
+        <textarea name="notes"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

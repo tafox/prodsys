@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>
+        Create Schedule
+    </title>
+</head>
+<body>
+    <p>Create a new Schedule</p>
+    <form action="/schedule/send" method="post">
+        Order ID:<br>
+        <input type="number" name="order_id"><br>
+        Labour IDs (comma separated):<br>
+        <input type="text" name="labour_ids"><br>
+        Machine IDs (comma separated):<br>
+        <input type="text" name="machine_ids"><br>
+        Start Date:<br>
+        <input type="text" value="yyyy-mm-dd hh:mm:ss" name="start_date" /><br>
+        Finish Date:<br>
+        <input type="text" value="yyyy-mm-dd hh:mm:ss" name="finish_date" /><br><br>
+        <input type="submit" value="Submit"> 
+    </form>
+</body
+</html>
